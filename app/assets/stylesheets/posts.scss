@@ -1,0 +1,104 @@
+displa* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  vertical-align: baseline;
+  min-height: 100%;
+  background-color: rgb(253, 253, 253);
+  .wrapper {
+    display: flex;
+    min-height: 100vh;
+    display: block;
+    .header {
+      position: relative;
+      &__content {
+        width: 1020px;
+        padding: 14px 0px 0px;
+        margin: 0 auto;
+        &__left {
+          font-size: 45px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          
+        }
+        &__right {
+          margin: 20px 0px 0px 300px;
+          
+          font-size: 20px;
+          &__new {
+            display: inline-block;
+            text-align: center;
+            &__btn {
+              border-width: 1px;
+              background-color: red;
+              padding: 6px 9px;
+              border-radius: 4px;
+              text-decoration: none;
+              color: azure;
+              cursor: pointer;
+            }
+          }
+          &__logout {
+            display: inline-block;
+            margin-left: 25px;
+            text-align: center;
+            &__btn {
+              border-width: 1px;
+              background-color: azure;
+              padding: 6px 9px;
+              border-radius: 4px;
+              text-decoration: none;
+              color: rgb(24, 166, 223);
+              border: solid 1px;
+              cursor: pointer;
+            }
+          }
+          &__diary {
+            display: inline-block;
+            margin-left: 160px;
+            text-align: center;
+            &__btn {
+              border-width: 1px;
+              background-color: aqua;
+              padding: 6px 9px;
+              border-radius: 4px;
+              text-decoration: none;
+              color: azure;
+              cursor: pointer;
+            }
+          }
+          &__board {
+            display: inline-block;
+            margin-left: 25px;
+            text-align: center;
+            &__btn {
+              border-width: 1px;
+              background-color: aqua;
+              padding: 6px 9px;
+              border-radius: 4px;
+              text-decoration: none;
+              color: azure;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+    .slider {
+
+      .slide {
+        margin-top: 10px;
+        &__img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .footer {
+
+    }
+  }
+}
